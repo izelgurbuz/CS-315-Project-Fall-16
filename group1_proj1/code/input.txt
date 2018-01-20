@@ -1,0 +1,93 @@
+Shape s1
+
+s1 = Rectangle()
+s1.color = RGB(0,0,225,0.8)
+s1.location.xValue = 10
+s1.location.yValue = 40
+s1.height = 10
+s1.width = 20
+s1.StrokeWidth = 10
+s1.rounded = true
+
+
+draw.s1
+s1.fillColor(RGB) // It is time to fill inside
+
+
+Location l1 =  Location (10,40)
+integer w1 = 10 
+integer h1 = 20 // height
+Set RGB = Set {225,225,225,0.8};
+Color c1 =  Color ( RGB) // color
+integer sw1 = 10 // stroke width
+boolean r1 = false //rounded
+Set a1 =  {l1.xValue,l1.yValue,w1,h1}
+
+Shape s2 = Rectangle(c1, a1, sw1, r1)
+draw.s2
+s2.fillColor(RGB) // It is time to fill inside
+
+
+-----------------------------------------
+Shape s3
+s3 =  Oval()
+s3.color = RGB(0,0,225,0.8)
+s3.location.xValue = 10
+s3.location.yValue = 40
+s3.size = (20,30)
+s3.StrokeWidth = 10
+
+draw.s3
+s3.fillColor(RGB) // It is time to fill inside
+
+
+Location l1 =  Location (10,40)
+integer w1 = 10 
+integer h1 = 20 // height
+Set RGB = Set {225,225,225,0.8};
+Color c1 =  Color ( RGB) // color
+integer sw1 = 10 // stroke width
+boolean r1 = false //rounded
+Set a1 =  {l1.xValue,l1.yValue,w1,h1}
+
+Shape s4 =  Oval(c1, a1, sw2)
+
+draw.s4
+s4.fillColor( RGB) // It is time to fill inside
+
+
+---------------------------------------------
+
+Shape s5 
+s5 = Line()
+s5.color = RGB(0,0,225,0.8)
+s5.location.xValue = 10
+s5.location.yValue = 40
+s5.direction = "N"
+s5.height = 20
+s5.strokeWidth = 2
+s5.arrow = true // if it is true it is the start arrow
+s5.arrowSize = 4 // giving the arrow size
+
+draw.s5
+s5.fillColor( RGB) // It is time to fill inside
+
+
+
+Location l1 = Location (10,40)
+Direction d1 = Direction ("N")
+integer h1 = 20 // height
+Set a1 =  {l1.xValue,l1.yValue,h1,d1} // set of attributes
+
+Set RGB = Set {225,225,225,0.8};
+Color c1 =  Color ( RGB) // color
+integer sw1 = 2 //stroke 
+boolean startArrow = true // is start arrow or end arrow
+int arrowSize = 4 // arrow head size 
+
+Shape s6 = Line(c1,a1,sw3,startArrow,arrowSize)
+---------------------------------------------------
+
+
+
+
